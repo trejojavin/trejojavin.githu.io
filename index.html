@@ -2,16 +2,496 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Sandbox: Section 2</title>
-
-    <link rel="stylesheet" href="css/style.css">
+    <title>Home | Javin Trejo's Portfolio</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Splide CSS -->
+    <link rel="stylesheet" href="css/splide/splide.min.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b23d940876.js" crossorigin="anonymous"></script>
+    <!-- Scroll Out -->
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/boilerplate.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-    <h1>This is my test page.</h1>
-    <p>Thank you for visiting</p>
+<body id="home">
+    <header class="header-wrap">
+        <ul class="list-unstyled text-center">
+            <li class="text-white mb-4 py-4 px-2 px-sm-4">
+                <i class="fa-light fa-bars d-block font-md mb-1"></i>
+                <span class="d-block font-xs">Menu</span>
+            </li>
+            <li class="mb-5"><a href="#about" class="nav-item">About</a></li>
+            <li class="mb-5"><a href="#experience" class="nav-item">Experience</a></li>
+            <li class="mb-5"><a href="#work" class="nav-item">Work</a></li>
+        </ul>
+    </header>
+    <main class="page-content">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 px-0">
+                    <img src="images/hero.jpg" class="img-fluid w-100" alt="">
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid section-margin">
+            <div class="container p-0">
+                <div class="row py-2 g-0">
+                    <div class="col-sm-4 col-6 d-sm-block d-none">
+                        <p class="font-xs text-left text-capitalize mb-0 text-color-alt">Portfolio For</p>
+                    </div>
+                    <div class="col-sm-4 col-6">
+                        <p class="font-xs text-left text-capitalize mb-0 text-color-alt">Design/Development</p>
+                    </div>
+                    <div class="col-sm-4 col-6">
+                        <p class="font-xs text-end text-capitalize mb-0 text-color-alt">Enjoy The Work</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="#about" class="container-fluid section-margin">
+            <div class="container p-0">
+                <div class="row mb-4">
+                    <div class="col-lg-6 col-md-8 col-sm-12">
+                        <h1 class="text-color mb-3">
+                            <span class="font-xs d-block">01</span>
+                            <span class="font-lg">Javin Trejo</span>
+                        </h1>
+                        <p data-scroll class="font-sm text-color">I am an experienced Web Designer/Front-end Web developer based in Phoenix, AZ.  I am happily employed but I am actively searching for <strong class="text-decoration-underline">part-time remote or contract work.</strong></p>
+                    </div>
+                </div>
+                <div data-scroll class="row g-0">
+                    <div class="col-sm-4 col-6">
+                        <p class="text-left text-capitalize">
+                            <span class="font-xs text-color-alt d-block">Last Updated</span>
+                            <span class="font-sm text-color d-block">August 2022</span>
+                        </p>
+                    </div>
+                    <div class="col-sm-4 col-6 d-sm-block d-none">
+                        <p class="text-left text-capitalize">
+                            <span class="font-xs text-color-alt d-block">Based In</span>
+                            <span class="font-sm text-color d-block">Phoenix, AZ</span>
+                        </p>
+                    </div>
+                    <div class="col-sm-4 col-6">
+                        <p class="text-end text-capitalize">
+                            <span class="font-xs text-color-alt d-block">Current Position</span>
+                            <span class="font-sm text-color d-block">Web Designer</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container-fluid section-margin">
+            <div class="container p-0">
+                <div class="row g-0">
+                    <div data-scroll class="col-lg-6 col-md-8 col-sm-12 offset-lg-3 offset-md-2 offset-sm-0">
+                        <img src="images/about.jpg" class="img-fluid w-100" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="experience" class="container-fluid section-margin">
+            <div class="container p-0">
+                <div class="row mb-3">
+                    <div class="col-lg-6 col-md-8 col-sm-12">
+                        <h1 class="text-color mb-3">
+                            <span class="font-xs d-block">02</span>
+                            <span class="font-lg">Experience</span>
+                        </h1>
+                    </div>
+                </div>
+                <div data-scroll class="row mb-5 pb-5 g-0 border-bottom">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="d-flex justify-content-center align-items-start flex-column h-100 w-100">
+                            <div class="d-flex w-100 mb-3 mb-md-0">
+                                <p class="mb-0">
+                                    <span class="font-xs text-color-alt d-block">Position</span>
+                                    <span class="font-sm text-color d-block">Senior Web Designer</span>
+                                </p>
+                            </div>
+                            <div class="d-flex w-100 mt-auto mb-3 mb-md-0">
+                                <p class="w-50 mb-0">
+                                    <span class="font-xs text-color-alt d-block">Started</span>
+                                    <span class="font-sm text-color d-block">August 2018</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 offset-lg-2 col-md-8 col-sm-12">
+                        <p class="font-sm text-color">I worked with company clients to design & develop their websites design. Multiple <strong class="text-decoration-underline">Adobe products</strong> were used to create client deliverables such as mockups, logos, images and other forms of web content.  Websites were developed using <strong class="text-decoration-underline">HTML, CSS & Javascript</strong> on a daily basis.  Additionally, I coordinated with other design team members to conduct website reviews, collaborative projects, meetings and more.</p>
+                        <p class="d-flex justify-content-between align-items-center border-bottom pb-1 mb-3">
+                            <span class="font-xs text-color-alt d-block">Company</span>
+                            <span class="font-sm text-color d-block">Retailer Web Services</span>
+                        </p>
+                        <p class="d-flex justify-content-between align-items-center border-bottom pb-1 mb-0">
+                            <span class="font-xs text-color-alt d-block">Location</span>
+                            <span class="font-sm text-color d-block">Hybrid</span>
+                        </p>
+                    </div>
+                </div>
+                <div data-scroll class="row section-margin g-0">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="d-flex justify-content-center align-items-start flex-column h-100 w-100">
+                            <div class="d-flex w-100 mb-3 mb-md-0">
+                                <p class="mb-0">
+                                    <span class="font-xs text-color-alt d-block">Position</span>
+                                    <span class="font-sm text-color d-block">Freelance Designer</span>
+                                </p>
+                            </div>
+                            <div class="d-flex w-100 mt-auto mb-3 mb-md-0">
+                                <p class="w-50 mb-0">
+                                    <span class="font-xs text-color-alt d-block">Started</span>
+                                    <span class="font-sm text-color d-block">September 2017</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 offset-lg-2 col-md-8 col-sm-12">
+                        <p class="font-sm text-color">I freelanced worked as a web designer where I would design and develop client websites. Most of my time was spent developing client ideas and scheduling client phone calls/virtual meetings.  Websites were developed with <strong class="text-decoration-underline">PHP, HTML, CSS, & Javascript</strong>.  I also designed mockups, wireframes, stylescapes and more using <strong class="text-decoration-underline">Adobe products</strong>.</p>
+                        <p class="d-flex justify-content-between align-items-center border-bottom pb-1 mb-3">
+                            <span class="font-xs text-color-alt d-block">Position</span>
+                            <span class="font-sm text-color d-block">Web Designer</span>
+                        </p>
+                        <p class="d-flex justify-content-between align-items-center border-bottom pb-1 mb-0">
+                            <span class="font-xs text-color-alt d-block">Location</span>
+                            <span class="font-sm text-color d-block">Remote</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="container-fluid section-margin">
+            <div class="container p-0">
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <h1 class="text-color mb-3">
+                            <span class="font-xs d-block">03</span>
+                            <span class="font-lg">My Work</span>
+                        </h1>
+                    </div>
+                </div>
+                <div id="projectContainer" class="row g-0">
+                    <!-- <div data-scroll class="col-sm-6 col-12 mb-sm-0 mb-3">
+                        <a type="button" data-bs-project-index="0" data-bs-toggle="modal" data-bs-target="#project-modal" class="project-container">
+                            <p class="mb-3">
+                                <span class="project-subtitle">Project</span>
+                                <span class="project-title">Maria's Catering</span>
+                            </p>
+                            <p class="project-description">Restuarant Website</p>
+                            <p class="btn btn-outline-light font-xs mt-auto ms-auto mb-0">view More<i class="fa-solid fa-right-long ms-2"></i></p>
+                        </a>
+                    </div>
+                    <div data-scroll class="col-sm-6 col-12 mb-sm-0 mb-3">
+                        <a type="button" data-bs-project-index="1" data-bs-toggle="modal" data-bs-target="#project-modal" class="project-container">
+                            <p class="mb-3">
+                                <span class="project-subtitle">Project</span>
+                                <span class="project-title">Glendale Landscaping</span>
+                            </p>
+                            <p class="project-description">Restuarant Website</p>
+                            <p class="btn btn-outline-light font-xs mt-auto ms-auto mb-0">view More<i class="fa-solid fa-right-long ms-2"></i></p>
+                        </a>
+                    </div>
+                    <div data-scroll class="col-sm-6 col-12 mb-sm-0 mb-3">
+                        <a type="button" data-bs-project-index="2" data-bs-toggle="modal" data-bs-target="#project-modal" class="project-container">
+                            <p class="mb-3">
+                                <span class="project-subtitle">Project</span>
+                                <span class="project-title">Maria's Catering</span>
+                            </p>
+                            <p class="project-description">Restuarant Website</p>
+                            <p class="btn btn-outline-light font-xs mt-auto ms-auto mb-0">view More<i class="fa-solid fa-right-long ms-2"></i></p>
+                        </a>
+                    </div>
+                    <div data-scroll class="col-sm-6 col-12 mb-sm-0 mb-3">
+                        <a type="button" data-bs-project-index="3" data-bs-toggle="modal" data-bs-target="#project-modal" class="project-container">
+                            <p class="mb-3">
+                                <span class="project-subtitle">Project</span>
+                                <span class="project-title">Maria's Catering</span>
+                            </p>
+                            <p class="project-description">Restuarant Website</p>
+                            <p class="btn btn-outline-light font-xs mt-auto ms-auto mb-0">view More<i class="fa-solid fa-right-long ms-2"></i></p>
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <div class="modal fade" id="project-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="project-modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-light fa-xmark"></i></button>
+            <div class="images-rpi container-fluid splide splide__slider mb-3">
+                <div class="splide__track row">
+                    <ul id="project-feature-image-list" class="splide__list">
+                        <!-- <li class="splide__slide">
+                            <img src="images/rpi-sample1.jpg" class="img-fluid w-100" alt="">
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="position-relative px-3">
+                <h1 id="project-name" class="font-xs text-color-alt fw-normal mb-0">
+                    <!-- Name of Project --> 
+                </h1>
+            </div>
+            <div class="descriptions-rpi container-fluid splide splide__slider mb-4">
+                <div class="splide__track row">
+                    <ul id="project-feature-description-list" class="splide__list">
+                        <!-- <li class="splide__slide">
+                            <div class="px-3">
+                                <h1 class="text-color mb-3">
+                                    <span class="font-xs d-block mb-2">01</span>
+                                    <span class="font-md d-block">Project Highlight</span>
+                                </h1>
+                                <p class="font-xs text-color">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore officiis autem accusantium illum neque voluptate eveniet mollitia magni sapiente quia? Aliquam odit, hic aliquid commodi omnis eum architecto inventore minus.</p>
+                            </div>
+                        </li>-->
+                    </ul>
+                </div>
+            </div>
+            <div class="container-fluid mb-4">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center align-items-center">
+                        <a href="#" id="project-external-link" target="_blank" class="btn btn-outline-light font-xs">View Website<i class="fa-light fa-arrow-up-right-from-square ms-2"></i></a>
+                        <button data-bs-dismiss="modal" aria-label="Close" class="btn btn-outline-light font-xs ms-auto">Close</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <footer class="footer-wrap border-top">
+            <div class="p-2 d-flex justify-content-center align-items-center flex-column">
+                <img src="images/signature.svg" class="footer-logo" alt="">
+                <p class="mb-0 text-center font-xs">Javin Trejo's Portfolio © All Rights Reserved. August 2022</p>
+            </div>
+        </footer>
+    </main>
+    
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+<!-- Bootstrap Js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<!-- Splide -->
+<script src="js/splide/splide.min.js"></script>
+<script>
+    ScrollOut({
+        threshold:.3
+    });
+</script>
+
+<script>
+    //Highlights the nav items
+    const sections = document.querySelectorAll("section[id]");
+
+    window.addEventListener("scroll", navHighlighter);
+
+    function navHighlighter() {
+    
+    let scrollY = window.pageYOffset;
+
+    sections.forEach(current => {
+        const sectionHeight = current.offsetHeight + (window.innerHeight * .5) ;
+        const sectionTop = current.offsetTop - (window.innerHeight * .5);
+        sectionId = current.getAttribute("id");
+
+        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
+        document.querySelector(`header a[href*='${sectionId}'`).classList.add("active");
+        } else {
+        document.querySelector(`header a[href*='${sectionId}'`).classList.remove("active");
+        }
+  });
+}
+
+</script>
+
+<script>
+    let splideImages = new Splide( '.images-rpi.splide', {
+        perPage:1,
+        arrows:false,
+        type:'loop',
+        autoplay:false,
+        pagination:true,
+    });
+
+    let splideDescriptions = new Splide( '.descriptions-rpi.splide', {
+        perPage:1,
+        arrows:true,
+        type:'loop',
+        pagination:false,
+        autoplay:false,
+        isNaviation :false,
+    });
+
+    window.addEventListener('load', () => {
+        splideImages.sync(splideDescriptions);
+        splideImages.mount();
+        splideDescriptions.mount();
+    })
+    
+
+    const projectList = [
+        {
+            name: "Maria's Mexican Catering",
+            description: "Static Website",
+            bgURL:"images/bg-mc.jpg",
+            url:"https://javintrejo.dev/mariascatering/",
+            features:[
+                {
+                    image_url:"images/built_html_css.jpg",
+                    header: "Built w/ HTML, CSS & JS",
+                    description: "This webpage was created with HTML, CSS and enough Javascript to make it interesting. No need for cumbersome libraries or complicated packages, this page was built simple yet effective."
+                },
+                {
+                    image_url:"images/css_animations.jpg",
+                    header: "CSS Animations",
+                    description: "Throughout the page, I used custom css animations to accent areas of importance.  These hand crafted animations were added via GSAP and activated with GSAP Scroll Trigger."
+                }
+            ]
+        },
+        {
+            name: "Busy Bee Plumbing",
+            description: "Unique Client Website",
+            bgURL:"images/bg-bb.jpg",
+            url:"https://javintrejo.dev/busybeeplumbing/",
+            features:[
+                {
+                    image_url:"images/unique_form.jpg",
+                    header: "Unique Form, complete with animations",
+                    description: "In this project, the client requested I add a form to check if they were able to offer service within the users area.  I decided to take that opportunity to not only answer the question but make an impact at the same time."
+                },
+                {
+                    image_url:"images/greensock_animation.jpg",
+                    header: "Greensock Animations",
+                    description: "For this client, I wanted to convey the message that the company is great, without writing a long boring paragraph.  I decided to flex my knowledge with the GSAP Animation Library to create an eye catching animation that alludes to the type of experience the client can offer."
+                },
+                {
+                    image_url:"images/php_version.jpg",
+                    header: "PHP Version",
+                    description: "This page now lives on a static github page but originally was built with php and hosted on a shared server. PHP was one of the first languages I learned and was my 'go-to' when working freelance. "
+                }
+            ]
+        },
+        {
+            name: "Glendale Lanscape",
+            description: "Static Website",
+            url:"https://javintrejo.dev/glendalelandscape/",
+            bgURL:"images/bg-gl.jpg",
+            features:[
+                {
+                    image_url:"images/bootstrap_core.jpg",
+                    header: "Bootstrap Core",
+                    description: "Bootstrap is one of the most widely used front end frameworks.  I wanted to exhibit my knowledge with the framework by building a page almost exclusively with it. "
+                },
+                {
+                    image_url:"images/built_adobe.jpg",
+                    header: "Built using Adobe Products",
+                    description: "Most design roles require the use of Adobe products within their company.  Rest assured, I use a variety of Adobe products, like illustrator & Photoshop, on a daily basis."
+                },
+                {
+                    image_url:"images/built_ux.jpg",
+                    header: "UX First Approach",
+                    description: "Providing users a meaningful user experience is paramount.  Whenever I design something, I make sure the user's experience is meaningful and as easy to follow as possible."
+                }
+            ]
+        }
+    ];
+
+    // makes the project boxes on homepage
+    const workSection = document.getElementById('projectContainer');
+    let projectHTML = ``;
+
+    projectList.forEach( (project, index) => {
+        projectHTML += ` <div data-scroll class="col-sm-6 col-12 mb-sm-0 mb-3">
+                        <a type="button" style="--data-bg:url(../${project.bgURL})" data-bs-project-index="${index}" data-bs-toggle="modal" data-bs-target="#project-modal" class="project-container">
+                            <p class="mb-3">
+                                <span class="project-subtitle">Project</span>
+                                <span class="project-title">${project.name}</span>
+                            </p>
+                            <p class="project-description">${project.description}</p>
+                            <p class="btn btn-outline-light font-xs mt-auto ms-auto mb-0">view More<i class="fa-solid fa-right-long ms-2"></i></p>
+                        </a>
+                    </div>`;
+    });
+    workSection.insertAdjacentHTML('beforeend', projectHTML);
 
 
-    <script src="app.js"></script>
+    // fills the modal
+    const projectModal = document.getElementById('project-modal');
+    projectModal.addEventListener('show.bs.modal', event => {
+    
+        let imageRPI = document.getElementById('project-feature-image-list');
+        let descriptionRPI = document.getElementById('project-feature-description-list');
+        let projectLink = document.getElementById('project-external-link');
+
+        
+        const button = event.relatedTarget;
+        const projectIndex = button.getAttribute('data-bs-project-index');
+
+        let imageHTMLString = '';
+        let descriptionHTMLString = '';
+
+        let name = document.getElementById('project-name');
+        name.innerText = projectList[projectIndex].name;
+
+        projectList[projectIndex].features.forEach( (obj, index) => {
+
+            if(obj.image_url !== undefined && obj.header !== undefined && obj.description !== undefined){
+                imageHTMLString += `
+                    <li class="splide__slide">
+                        <img src="${obj.image_url}" class="img-fluid w-100" alt="">
+                    </li>
+                `;
+            
+                descriptionHTMLString += `
+                <li class="splide__slide">
+                    <div class="px-3">
+                        <h1 class="text-color mb-3">
+                            <span class="font-xs d-block mb-2">0${index + 1}</span>
+                            <span class="font-md d-block text-capitalize">${obj.header}</span>
+                        </h1>
+                        <p class="font-xs text-color">${obj.description}</p>
+                    </div>
+                </li>
+                `;
+            }
+        })
+        
+        imageRPI.innerHTML = '';
+        descriptionRPI.innerHTML = '';
+
+        imageRPI.innerHTML = imageHTMLString;
+        descriptionRPI.innerHTML = descriptionHTMLString;
+
+        console.log(projectList[projectIndex].url);
+        projectLink.setAttribute('href', projectList[projectIndex].url)
+
+        splideImages.refresh();
+        splideDescriptions.refresh();
+    })
+
+    projectModal.addEventListener('shown.bs.modal', event => {
+        let button = document.querySelector('#splide01 ul.splide__pagination li button:first-child');
+        button.click();
+    });
+
+</script>
+
+<!-- Splide JS -->
+
+
+
 </body>
 </html>

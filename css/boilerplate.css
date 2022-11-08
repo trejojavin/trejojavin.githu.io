@@ -1,0 +1,12 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{ font-family: var(--font_sans); background-color:#fefefe; min-height:100vh; overflow-x: hidden; }
+p{ color:var(--gray_dark); }
+h1, h2, h3, h4, h5, h6{ font-family: var(--font_sans); font-weight:bold; }
+
+a{ color:var(--gray_darker); }
+a:hover{ color:inherit; text-decoration: underline; }
