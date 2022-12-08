@@ -108,7 +108,7 @@ header{ background-color:var(--bg-color-alt); }
 header ul{ position:sticky; top:0; }
 
 /* Header */
-.nav-item{ font-size:var(--font-xs); color:var(--text-color); text-transform: uppercase; text-decoration: none; writing-mode: vertical-lr; text-orientation: mixed; transform:scale(-1); letter-spacing: .2rem; opacity:.5; transition:opacity .3s ease; }
+.nav-item{ font-size:var(--font-xs); color:var(--text-color); text-transform: uppercase; text-decoration: none; writing-mode: vertical-lr; text-orientation: mixed; transform:scale(-1); letter-spacing: .2rem; opacity:.75; transition:opacity .3s ease; }
 .nav-item.active, .nav-item:hover, .nav-item:focus, .nav-item:active{ opacity:1; }
 
 /* Modal */
