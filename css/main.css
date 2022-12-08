@@ -80,7 +80,7 @@ main{ background-color: var(--bg-color); background-image:url(../images/bg-grid.
     }
 
 /* My Work Section */
-.project-container{ position:relative; z-index: 1; display:flex; justify-content:flex-start; align-items: flex-start; flex-direction: column; padding:30px; aspect-ratio: 1 / .8; overflow:hidden; text-decoration:none; border: 1px solid var(--border-color-alt); }
+.project-container{ position:relative; z-index: 1; display:flex; width: 100%; text-align: left; justify-content:flex-start; align-items: flex-start; flex-direction: column; padding:30px; aspect-ratio: 1 / .8; overflow:hidden; text-decoration:none; border: 1px solid var(--border-color-alt); }
 .project-container::before{ content:''; display:block; position:absolute; z-index:-2; top:0; left:0; width:100%; height:100%; background-image:var(--data-bg); background-position: center; background-size:cover; background-repeat: no-repeat; filter:grayscale(.75) brightness(.75); pointer-events: none; transition:transform .3s ease; }
 .project-container::after{ content:''; display:block; position:absolute; z-index:-1; top:0; left:0; width:100%; height:100%; background-color:black; opacity:0.75; pointer-events: none; }
 .project-container:hover{ text-decoration:none; }
